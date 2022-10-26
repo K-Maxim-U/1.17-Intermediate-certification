@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Сайт школы-гнмназии</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <script defer src="js/login-popup.js"></script>
+    </head>
+    <body class="page">
+        <header class="header">
+            <img class="site-logo" src="img/logo-emblema.jpg" alt="Логотип" width="47" height="47">
+            <ul class="site-menu">
+                <li><a class="menu-link active-link" href="#">Главная</a></li>
+                <li><a class="menu-link" href="pages/students.html">Студенты</a></li>
+                <li><a class="menu-link" href="pages/about.html">О школе</a></li>
+                <li><a class="menu-link" href="pages/contacts.html">Контакты</a></li>
+            </ul>
+            <a class="login-button" href="login.html">Войти</a>
+            <div class="login-popup">
+                <h2 class="login-headng">Войти на сайт</h2>
+                <form class="login-form" action="#" method="GET">
+                    <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+                    <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+                    <button class="popup-buttn" type="submit">Войти</button>
+                </form>
+            </div>
+        </header> 
+        <main class="main">
+            <h1 class="main-heading"> Добро пожаловать на сайт школы-гимназии №6! </h1>
+            <img class="class-photo" src="img/school-27.11.21.jpg" alt="Фото центрального входа в школу-гимназию" width="523" height="316">
+            <h2>Для кого этот сайт</h2>
+            <div class="intro-wrapper">
+                <p class="intro-text"> Этот сайт создавался для того, чтобы каждый житель города (и не толко города) смог получить информацию об этой школе не выходя из собственного дома. <br>Сейчас это очень ограниченный сайт, но он будет развиваться и будет развиваться очень быстро.  </p>
+                <aside class="intro-aside">
+                    <blockquote>&#8220;Учимся<br> вместе!&#8221;</blockquote>
+                </aside>
+            </div>
+            <h2>Сейчас на этих страницах cуществуют такие разделы, как:</h2>              
+                <ul class="intro-text">
+                    <li><a href="#"><strong>Главная</strong></a> - об этом сайте.</li>
+                    <li><a href="pages/students.html"><strong>Студенты</strong></a> -  описание, фото про бывших и настоящих учащихся.</li>
+                    <li><a href="pages/about.html"><strong>О школе</strong></a> - здесть вы найдете небольшую информацию о том, как зарождалась и развивалась ГУСШ №6.</li>
+                    <li><a href="pages/contacts.html"><strong>Контакты</strong></a> - здесь вы найдете информацию как нас найти: адрес, карта, телефон.</li>
+                </ul>
+        </main>
+        <footer class="footer"> 
+            <p class="copywraite">2022 &copy; <a class="gymnasium-school" href="http://sixschool.narod.ru/index.htm">Школа-Гимназия №6</a></p>
+        </footer>
+    </body>
+</html>
